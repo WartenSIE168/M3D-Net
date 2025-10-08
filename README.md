@@ -5,6 +5,7 @@ Research on the Detection Method of Flight Trainees’ Attention State Based on 
 This project is a classification model based on multimodal data (images, eye movement text data, and flight operation text data), aiming to classify the attention states of flight cadets in a simulated flight environment. The model mainly combines components such as MobileNet-V3, bidirectional LSTM, and ConvLSTM, and achieves the recognition of six different attention states (dangerous driving, distraction, normal level, high concentration, fatigue, yawning, etc.) through multimodal fusion.
 
 ### Project Structure ###
+'''
 M3D-NET/
 ├── dealData
     ├── dealEyeTxtData.py       # Code for processing visual information file data
@@ -28,6 +29,7 @@ M3D-NET/
     ├── trainer.py              # Defines the training and validation functions
     ├── utils.py                # Contains optimizer configuration and auxiliary functions
     └── main.py                 # The main function that calls other modules to complete the training and testing processes
+'''
 
 ### Main Functions of Core Code Files ###
 ### config.py ###
