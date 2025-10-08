@@ -1,5 +1,5 @@
 # M3D-Net
-Research on the Detection Method of Flight Trainees’ Attention State Based on Multi-Modal Dynamic Depth Network
+This is the official code for "Research on the Detection Method of Flight Trainees’ Attention State Based on Multi-Modal Dynamic Depth Network."
 
 ### Project Overview ###
 This project is a classification model based on multimodal data (images, eye movement text data, and flight operation text data), aiming to classify the attention states of flight cadets in a simulated flight environment. The model mainly combines components such as MobileNet-V3, bidirectional LSTM, and ConvLSTM, and achieves the recognition of six different attention states (dangerous driving, distraction, normal level, high concentration, fatigue, yawning, etc.) through multimodal fusion.
@@ -61,6 +61,17 @@ Data loading and splitting: Calls the functions in `dataset.py` to load the data
 Model initialization and training: Initializes the model according to the available GPUs, calls the functions in `trainer.py` to perform training, and saves the best model.
 Model evaluation: Loads the best model, tests it on the test set, calculates the accuracy, generates a classification report, and plots the confusion matrix.
 
+#### Use package installation.
+```python
+conda create -n M3D-NET python=3.9
+conda activate M3D-NET
+```
+
+### Install dependencies.
+```python
+cd M3D-NET
+pip install -r requirements.txt
+```
 ### Running the Project ###
 Ensure that all the required dependency libraries for the project are installed, such as torch, torchvision, tqdm, matplotlib, seaborn, sklearn, etc.
 Modify the configuration parameters in `config.py` as needed.
