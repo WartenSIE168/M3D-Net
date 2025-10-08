@@ -1,0 +1,14 @@
+测试结果:
+总体准确率: 0.9756
+                   precision    recall  f1-score   support
+
+     RiskBehavior       1.00      0.98      0.99       113
+       Distracted       0.91      1.00      0.95       114
+      Normallevel       1.00      0.94      0.97       103
+HighlyCentralized       0.99      0.97      0.98       122
+          Fatigue       0.99      1.00      0.99        85
+          Yawning       1.00      0.99      0.99        99
+
+         accuracy                           0.98       636
+        macro avg       0.98      0.98      0.98       636
+     weighted avg       0.98      0.98      0.98       636

@@ -1,0 +1,10 @@
+torch==2.6.0+cu126
+torchvision==0.21.0
+Pillow==11.1.0
+tqdm==4.67.1
+scikit-learn==1.6.1
+numpy==1.26.4
+matplotlib==3.9.4
+seaborn==0.13.2
+
+# Install PyTorch according to the graphics card model.
